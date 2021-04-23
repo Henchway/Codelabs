@@ -8,19 +8,14 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.prep_aboutme"
-        minSdkVersion 19
+        applicationId "com.example.prep_colormyviews"
+        minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
-    buildFeatures {
-        dataBinding true
-    }
-
 
     buildTypes {
         release {
